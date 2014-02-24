@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ClaimsFromJWT</id>
+        <version>1.0.0</version>
+        <title>Claims from JSON Web Token</title>
+        <authors>Matias Woloski, AdvancedREI</authors>
+        <owners>auth0, advancedrei</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>http://auth0.com</projectUrl>
+        <iconUrl>https://secure.gravatar.com/avatar/805765c256ff8617fcad483b5476faf2?s=420</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A set of helper functions that translate an already-validated JWT into a ClaimsIdentity, using standard Claims wherever possible.</description>
+        <copyright>Copyright © 2013-2014 Auth0 and AdvancedREI, LLC.</copyright>
+        <tags>jwt, webapi, Auth0, OAuth</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.IdentityModel" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="content\App_Start\ClaimsFromJwt.cs.pp" target="content\App_Start\ClaimsFromJwt.cs.pp" />
+    </files>
+</package>
